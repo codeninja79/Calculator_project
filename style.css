@@ -6,33 +6,46 @@ body{
     width: 100vw;
     height: 100vh;
 }
-
+.Calculator-area{
+    background-color: black;
+}
 .btn{
     height: 75px;
     width: 75px;
     margin: 15px;
     font-size: 50px;
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: greenyellow;
 }
 
 .number{
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 10px;
+    background-color: gray;
+    
 }
 
 .clear {
-    border: 1px solid green;
+    border: 1px solid white;
+    background-color: orange;
 }
 
 .operation {
-    border: 1px solid blueviolet;
+    border: 1px solid white;
+    background-color: orange;
+
 }
 
 .result{
-    border: 1px solid teal;
+    border: 1px solid black;
+    background-color: blueviolet;
 }
 
 .decimal{
-    border: solid 1px olivedrab;
+    border: solid 1px black;
+    background-color: blueviolet;
 }
 
 .input-field{
@@ -54,8 +67,10 @@ body{
 
 .firstNum{
     font-size: 20px;
+    color: white;
 }
 
 .secondNum{
     font-size: 30px;
+    color: white;
 }
